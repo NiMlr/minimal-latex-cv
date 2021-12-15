@@ -1,4 +1,4 @@
-Minimal usage example
+Minimal usage [example](https://github.com/NiMlr/minimal-latex-cv/blob/master/minimal_latex_cv.pdf).
 
 ```shell
 # watch out; will install tons of (unneeded) packages
