@@ -8,3 +8,4 @@ sudo apt-get install texlive-full
 pdflatex --shell-escape main.tex
 ```
 
+Feel free to make PRs, e.g., for a letter/a4 or modern/classical switch.
