@@ -1,0 +1,96 @@
+\documentclass{resume}
+\usepackage{pdfpages}
+
+% possible todos:
+% fix warnings
+% top margin in pubrow smaller than elsewhere
+% switch between us letter and a4paper
+% improve top-section data presentation
+
+% width of the left hand side of split sections
+\descriptionwidth{125mm}
+\logo{\includesvg[height=85pt]{logo}}
+\name{First~Last}
+\email{mail@homepage.io}
+\phone{+YOUR-PHONENUMBER}
+\homepage{homepage.io}
+\github{GITID}
+\address{Street 1,~ZIP~Town,~Country}
+\dob{MM-DD-YYYY}
+\pdftitle{First~Last's~CV}
+\pdfsubject{YOUR SUBJECT}
+
+% invoke
+\pdfmetadata
+
+\begin{document}
+\nobibliography{ref}
+\bibliographystyle{abbrv}
+%
+\topsection
+%
+\begin{rSection}{Education}{0.5mm}% width between items
+% item 1
+    \headerrow{University of Munich}{Oct 2020 -- present}
+    \subrow{Master of Science in CV-Templating}{Munich, Germany}
+    \subdescriptionrow{Weighted average grade: \pi~(ranked 86\textsuperscript{th} out of 87)}
+    % item 2
+    \headerrow{University of the North Pole}{Oct 2017 -- Mar 2020}
+    \subrow{Bachelor of Science in Applied Physics}{North Pole, Greenland}
+    \subdescriptionrow{Specialized in thermodynamics}
+%
+\end{rSection}%
+%
+\begin{rSection}{Experience}{0.5mm}%
+%
+    \headerrow{Assistant to Security Guard (remote)}{Feb 2021 -- present}
+    \subrow{Fort Knox Military Base}{Fort Knox (KY), USA}
+    \subdescriptionrow{Fast response team guarding against security breaches.}
+%
+    \headerrow{Technology Startup Heir \& CEO}{Mar 2018 -- Apr 2018}
+    \subrow{\href{https://www.google.com}{Fancy Name}}{Fremont (CA), USA}
+    \subdescriptionrow{Democratizing breakfast as a cereal entrepreneur.}
+%
+	\headerrow{Human Backend at AI-first Unicorn Company}{Nov 2017 -- Aug 2019}
+	\subrow{Mechanical Turk Inc.}{Seattle (CA), USA}
+    \subdescriptionrow{Student job in customer service.}
+%
+    \headerrow{First Employee \& Con-Artist}{Dec 2003 -- Jun 2013}
+    \subrow{Theranos Inc.}{Palo Alto (CA), USA}
+    \subdescriptionrow{Revolutionizing the path to jail.}
+%
+\end{rSection}%
+%
+\begin{rSection}{Publications}{0.5mm}%
+%
+    \pubrow{$\bigcdot$}{\bibentry{nakamoto2008bitcoin}}
+%
+    \pubrow{$\bigcdot$}{\bibentry{lowry1951protein}}
+%
+    \pubrow{$\bigcdot$}{\bibentry{shannon1948mathematical}}
+% 
+\end{rSection}%
+%
+\begin{rSection}{Volunteer Experience}{0.5mm}%
+    \headerrow{Coding Instructor}{Dec 2020 -- present}
+    \subrow{Appletree Preschool
+    }{Munich, Germany}
+    \subdescriptionrow{Teaching toddlers the development of Ethereum smart contracts.}
+%
+    \headerrow{Jail Librarian}{Dec 2013 -- Apr 2017}
+    \subrow{San Quentin State Prison}{San Quentin (CA), USA}
+    \subdescriptionrow{Providing educational and recreational resources to inmates.}
+%
+\end{rSection}%
+%
+\begin{rSection}{Languages \& Technologies}{-1.5mm}%
+%
+    \skillsrow{Technologies}{Linux, DevOps (Git, Ansible, Docker), Ethereum Dev Tools (Hardhat, OpenZeppelin)}
+%
+    \skillsrow{Languages}{Fluent in English and German}
+%
+    \skillsrow{Programming Languages}{Solidity, C++, Python, Go}
+%
+\end{rSection}%
+%\includepdf[pages=2-3]{some-document.pdf}
+\end{document}
