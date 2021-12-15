@@ -6,5 +6,5 @@ Minimal usage example
 sudo apt-get install texlive-full
 # needs something like inkscape on path for the svg in the example
 pdflatex --shell-escape main.tex
-``
+```
 
