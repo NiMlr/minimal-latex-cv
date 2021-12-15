@@ -32,6 +32,7 @@
 \definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
 
 % the following stops a clash
+\usepackage{natbib}
 \usepackage{bibentry}
 \let\saved@bibitem\@bibitem
 \usepackage[hyperfootnotes=false]{hyperref}
