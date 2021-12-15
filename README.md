@@ -1,6 +1,6 @@
 Minimal usage example
 
-```console
+```shell
 # watch out; will install tons of (unneeded) packages
 # it is best to update an existing texlive installation
 sudo apt-get install texlive-full
